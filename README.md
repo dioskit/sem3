@@ -1,7 +1,7 @@
 # SEMESTER 3rd
 
 ### MAL202 Advanced Probability and Statistics 
-
+Watching tutorial on youtube 
 
 
 
