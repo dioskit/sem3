@@ -109,23 +109,23 @@ poly* sub(poly* head1, poly* head2){
     }
     return sum;
 }
-void removeCopies(poly* product){
-    poly *ptr1, *ptr2, *dup;
-    ptr1 = start;
-    while (ptr1 != NULL && ptr1->link != NULL) {
-        ptr2 = ptr1;
-        while (ptr2->link != NULL) {
-            if (ptr1->power == ptr2->link->power) {
-                ptr1->coeff += ptr2->link->coeff;
-                dup = ptr2->link;
-                ptr2->link = ptr2->link->link;
-                free(dup);
-            } else {
-                ptr2 = ptr2->link;
-            }
+void remove_copies(poly* p) {
+    poly* p1, *p2, *d;
+    p1 = p;
+    while (p1 != NULL) {
+        p2 = p1;
+        while (p2->next != NULL) {
+            if (p1->deg == p2->next->deg) {  // Corrected to compare degrees
+                p1->coff += p2->next->coff;
+                d = p2->next;  // Fixed this line to properly reference p2->next
+                p2->next = p2->next->next;
+                free(d);
+            } 
+            else p2 = p2->next;
         }
-        ptr1 = ptr1-linkt;
+        p1 = p1->next;  // Move to the next node
     }
+}
 /*
 Step-by-Step Explanation
 Initialization:
