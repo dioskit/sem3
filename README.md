@@ -2,7 +2,7 @@
 
 ### MAL202 Advanced Probability and Statistics 
 - [**Playlist**]( https://youtube.com/playlist?list=PL4MBkt7mtZK8cFxhWypPZu9gPl2ZSUQq1&si=OEXnaIPss4HozFNn )
-- [**statistical learning with python** ] ( https://youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&si=WiNvW9m_kYjN7NQu )
+- [**statistical learning with python** ]( https://youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&si=WiNvW9m_kYjN7NQu )
 ### CSL 202 Introduction to Object Oriented programming 
 
 
